@@ -11,7 +11,9 @@ import SwiftUI
 struct Learn_Japan_App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                ContentView()
+            }
         }
     }
 }
